@@ -19,8 +19,14 @@
 //for(var i=0;i<=20;i++){
     //document.write(i+" ");}
 
-    function abc(){
-        document.write("Daffodil Is Pain");
+   // function abc(){
+       // document.write("Daffodil Is Pain");
+   // }
+   // abc();
+   function add(){
+   var a=document.getElementById('num1').value;
+   var b=document.getElementById('num2').value;
+   document.write(a+b);
     }
 
     </script>
@@ -31,7 +37,13 @@
 
     </header>
     <main>
-
+        <form action="">
+            <input type="text" id="num1" placeholder="Enter 1st Number">
+            <br><br>
+            <input type="text" id="num2" placeholder="Enter 2nd Number">
+            <br>
+            <input type="submit" value="+" id="" onclick="add()">
+        </form>
 
     </main>
     <footer>
